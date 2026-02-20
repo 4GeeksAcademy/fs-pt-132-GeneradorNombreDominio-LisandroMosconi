@@ -1,5 +1,16 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    min-height: 100vh;
+    color: white;
+}
 
-body{
-    background: white;
+.domain-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.domain-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #ffd369;
 }
